@@ -1,0 +1,19 @@
+{
+  "name": "uuznav",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/vue": "^5.1.2",
+    "@vicons/carbon": "^0.13.0",
+    "@vicons/ionicons5": "^0.13.0",
+    "astro": "^5.15.3",
+    "naive-ui": "^2.43.1",
+    "vue": "^3.5.22"
+  }
+}

@@ -1,0 +1,859 @@
+{
+  "navLinks": [
+    {
+      "title": "Pixiv",
+      "description": "pixiv是全球规模最大的作品交流社区，用户可于此投稿或浏览插画、漫画、小说作品，并体验其中的乐趣。除了各类型投稿作品之外，还有用户自发的企划以及官方比赛在此举办。",
+      "icon": "/logos/wallpaper/pixiv.png",
+      "url": "https://www.pixiv.net/",
+      "category": "壁纸"
+    },
+    {
+      "title": "Danbooru",
+      "description": "Danbooru是最初的动漫图片网站。搜索数百万张动漫图片，这些图片按数千个标签进行分类。",
+      "icon": "/logos/wallpaper/danbooru.ico",
+      "url": "https://danbooru.donmai.us/",
+      "category": "壁纸"
+    },
+    {
+      "title": "萌哩",
+      "description": "萌哩（moely） - 萌萌的二次元美图。全网精选二次元美图，提供高质量原图下载。收藏美图，收获美好。",
+      "icon": "/logos/wallpaper/moely.png",
+      "url": "https://www.moely.link/",
+      "category": "壁纸"
+    },
+    {
+      "title": "搜图Bot酱",
+      "description": "大家好（ﾉ>ω<)ﾉ这里是搜图bot酱网页版~ 可局部搜图NH内的本子",
+      "icon": "/logos/wallpaper/soutubot.png",
+      "url": "https://soutubot.moe/",
+      "category": "壁纸"
+    },
+    {
+      "title": "Cosine Gallery",
+      "description": "质量超高的 ACG 图片列表，包好看的！",
+      "icon": "/logos/wallpaper/CosineGallery.webp",
+      "url": "https://pic.cosine.ren/",
+      "category": "壁纸"
+    },
+    {
+      "title": "ManyACG",
+      "description": "我会带上我的萝莉私奔",
+      "icon": "/logos/wallpaper/manyacg.webp",
+      "url": "https://manyacg.top/",
+      "category": "壁纸"
+    },
+    {
+      "title": "SomeACG",
+      "description": "做最棒的ACG插画作品分享平台",
+      "icon": "/logos/wallpaper/someacg.png",
+      "url": "https://www.someacg.top/",
+      "category": "壁纸"
+    },
+    {
+      "title": "次元城动画",
+      "description": "高质量在线追番网站！为动漫爱好者提供无与伦比的追番体验!",
+      "icon": "/logos/anime/cycanime.png",
+      "url": "https://www.cycani.org/",
+      "category": "动漫"
+    },
+    {
+      "title": "Anime Scene Search Engine",
+      "description": "动漫场景搜索引擎,查找确切的片段和集数。",
+      "icon": "/logos/anime/Anime Scene Search Engine.png",
+      "url": "https://whatanimeisthis.com/",
+      "category": "动漫"
+    },
+    {
+      "title": "橘子动漫",
+      "description": "橘子动漫拥有高清晰画质的在线动漫，最新电影，观看完全免费、高速播放、更新及时在线，我们致力为所有动漫迷们提供最好看的动漫",
+      "icon": "/logos/anime/orangeanime.png",
+      "url": "https://www.mgnacg.com/",
+      "category": "动漫"
+    },
+    {
+      "title": "番薯动漫",
+      "description": "提供最新最快的动漫新番资讯和在线播放，观看完全免费、无须注册、高速播放、更新及时的专业在线番薯动漫站，我们致力为所有动漫迷们提供最好看的动漫。",
+      "icon": "/logos/anime/sweet potato.png",
+      "url": "https://www.fsdm02.com/",
+      "category": "动漫"
+    },
+    {
+      "title": "girigiri愛動漫",
+      "description": "這是家彈幕視頻網站，這裡有各式各樣的動漫新番，友好的彈幕氛圍，有趣的評論，年輕人都在用。girigiri愛٩( &gt;&omega;&lt; )و 好耶~",
+      "icon": "/logos/anime/girigirianime.png",
+      "url": "https://bgm.girigirilove.com/",
+      "category": "动漫"
+    },
+    {
+      "title": "末日動漫資源庫",
+      "description": "AcgnX末日动漫资源库拥有华语范围内最多最全的ACG资源,能为所有动漫爱好者提供最全的资源检索服务",
+      "icon": "/logos/anime/endanime.ico",
+      "url": "https://share.acgnx.se/",
+      "category": "动漫"
+    },
+    {
+      "title": "柒番",
+      "description": "柒番（www.qifun.cc)是一个人动漫网站，这里有及时的动漫新番，活跃的ACG氛围，大家可以在这里找到许多欢乐。",
+      "icon": "/logos/anime/qianime.ico",
+      "url": "https://www.qifun.cc/",
+      "category": "动漫"
+    },
+    {
+      "title": "二矿动漫",
+      "description": "只收录超高清画质的动漫网站(宁缺毋滥)，资源如海的免费观看并无广告、无删减的动漫网站",
+      "icon": "/logos/anime/2rkanime.ico",
+      "url": "https://www.2rk.cc/",
+      "category": "动漫"
+    },
+    {
+      "title": "喵物次元",
+      "description": "喵物次元，致力于动漫番剧资源收集，是一个二次元观影追番动漫网站，海量最新热门高质量动漫，提供动漫app，动漫下载，免费在线看动漫，更新及时画质高清1080p无广告，为各位友人打造最好的追番体验",
+      "icon": "/logos/anime/mwcy.webp",
+      "url": "https://www.mwcy.net/",
+      "category": "动漫"
+    },
+    {
+      "title": "MuteFun动漫",
+      "description": "MuteFun动漫网站提供最新最快的动漫新番资讯和在线播放，享受动漫的乐趣。",
+      "icon": "/logos/anime/muteanime.png",
+      "url": "https://www.mutedm.com/",
+      "category": "动漫"
+    },
+    {
+      "title": "Animoe动漫",
+      "description": "Animoe是一个新一代高清动漫在线播放站点，可为您提供高清、迅速、无广告打扰的优质观赏体验。",
+      "icon": "/logos/anime/animoe.png",
+      "url": "https://animoe.org/",
+      "category": "动漫"
+    },
+    {
+      "title": "嗷呜动漫",
+      "description": "优质小众动漫门户网站",
+      "icon": "/logos/anime/aowuanime.webp",
+      "url": "https://www.aowu.tv/",
+      "category": "动漫"
+    },
+    {
+      "title": "稀饭动漫",
+      "description": "稀饭动漫， 免费高清动漫分享",
+      "icon": "/logos/anime/xifananime.png",
+      "url": "https://dm.xifanacg.com/",
+      "category": "动漫"
+    },
+    {
+      "title": "巴哈姆特動畫瘋",
+      "description": "動畫瘋是由巴哈姆特所推出，正版授權的免費動畫平台，提供與日本同步的當季新番動畫，並含有高達上萬集的過往名作，供動畫迷們自由選擇！",
+      "icon": "/logos/anime/bahamut.svg",
+      "url": "https://ani.gamer.com.tw/",
+      "category": "动漫"
+    },
+    {
+      "title": "AcFun弹幕视频网",
+      "description": "AcFun是国内首家弹幕视频网站，这里有全网独家动漫新番， 友好的弹幕氛围，有趣的UP主，好玩有科技感的虚拟偶像，年轻人都在用。",
+      "icon": "/logos/anime/acfun.ico",
+      "url": "https://www.acfun.cn/",
+      "category": "动漫"
+    },
+    {
+      "title": "哔哩哔哩",
+      "description": "哔哩哔哩（bilibili.com)是国内知名的视频弹幕网站，这里有及时的动漫新番，活跃的ACG氛围，有创意的Up主。大家可以在这里找到许多欢乐。",
+      "icon": "/logos/anime/bilibili.png",
+      "url": "https://www.bilibili.com/",
+      "category": "动漫"
+    },
+    {
+      "title": "Lanerc",
+      "description": "Lanerc 在线动漫APP",
+      "icon": "/logos/anime/lanerc.png",
+      "url": "https://tv.lanerc.app/",
+      "category": "动漫"
+    },
+    {
+      "title": "动漫共和国",
+      "description": "动漫共和国是一款专为二次元爱好者打造的追番神器，内容更新快，体验流畅",
+      "icon": "/logos/anime/oneghg.png",
+      "url": "https://www.oneghg.com/",
+      "category": "动漫"
+    },
+    {
+      "title": "Kazumi",
+      "description": "使用 Flutter 开发的基于自定义规则的番剧采集与在线观看程序。使用最多五行基于 Xpath 语法的选择器构建自己的规则。支持规则导入与规则分享。支持基于 Anime4K 的实时超分辨率。绝赞开发中 (～￣▽￣)～",
+      "icon": "/logos/anime/kazumi.png",
+      "url": "https://github.com/Predidit/Kazumi",
+      "category": "动漫"
+    },
+    {
+      "title": "動漫花園資源網",
+      "description": "動漫花園資訊網是一個動漫愛好者交流的平台,提供最及時,最全面的動畫,漫畫,動漫音樂,動漫下載,BT,ED,動漫遊戲,資訊,分享,交流,讨论.",
+      "icon": "/logos/anime/dmhy.ico",
+      "url": "https://share.dmhy.org/",
+      "category": "动漫"
+    },
+    {
+      "title": "Nyaa",
+      "description": "一个专注于东亚媒体（包括动漫、漫画、音乐等）的BitTorrent社区",
+      "icon": "/logos/anime/nyaa.png",
+      "url": "https://nyaa.si/",
+      "category": "动漫"
+    },
+    {
+      "title": "蜜柑计划",
+      "description": "蜜柑计划：新一代的动漫下载站",
+      "icon": "/logos/anime/mikananime.ico",
+      "url": "https://mikanani.me/",
+      "category": "动漫"
+    },
+    {
+      "title": "ANi Open",
+      "description": "ANi Open 線上觀看及下載網站為 Project ANi 全自動新番更新系統其中一部分",
+      "icon": "/logos/anime/ani open.png",
+      "url": "https://openani.an-i.workers.dev/",
+      "category": "动漫"
+    },
+    {
+      "title": "Anime字幕论坛",
+      "description": "动画字幕共享站",
+      "icon": "/logos/anime/acgrip.ico",
+      "url": "https://bbs.acgrip.com/",
+      "category": "动漫"
+    },
+    {
+      "title": "菲特动漫",
+      "description": "动画,新番,音乐,日剧,下载,BT,BT下载,磁链,迅雷,免费,资源,网盘,百度盘,菲特动漫",
+      "icon": "/logos/anime/fitaanime.ico",
+      "url": "https://fitacg.com/",
+      "category": "动漫"
+    },
+    {
+      "title": "VCB-Studio",
+      "description": "VCB,VCB-S,VCB-Studio,动漫,RAW,二次元,BD,高清,显卡",
+      "icon": "/logos/anime/vcbanime.png",
+      "url": "https://vcb-s.com/",
+      "category": "动漫"
+    },
+    {
+      "title": "爱恋动漫",
+      "description": "爱恋动漫BT下载，爱恋BT分享站，动漫下载，BT磁力，字幕组，生肉资源，BD资源",
+      "icon": "/logos/anime/kisssub.ico",
+      "url": "https://www.kisssub.org/",
+      "category": "动漫"
+    },
+    {
+      "title": "動漫國字幕組",
+      "description": "動漫國字幕組論壇，字幕組作品發布、成員招募、新番資訊、動漫交流，喜愛動畫的你快加入我們吧。",
+      "icon": "/logos/anime/dmguo.ico",
+      "url": "https://dmguo.org/",
+      "category": "动漫"
+    },
+    {
+      "title": "vomic漫画",
+      "description": "vomic漫为您提供优质纯净的无广告漫画阅读体验。",
+      "icon": "/logos/comic/vomic.png",
+      "url": "https://vomicmh.com/",
+      "category": "漫画"
+    },
+    {
+      "title": "再漫画",
+      "description": "再漫画是国内最全最专业的在线漫画、原创漫画、最好看的动漫网站，每周更新各种原创漫画、日本动漫，动画片大全、漫画大全、好看的漫画尽在再漫画漫画网 随时随地看漫画。",
+      "icon": "/logos/comic/zaicomic.png",
+      "url": "https://manhua.zaimanhua.com/",
+      "category": "漫画"
+    },
+    {
+      "title": "MYCOMIC",
+      "description": "MYCOMIC 我的漫画拥有海量中文化漫画，每日为你即时更新日本漫画，韩国漫画，国产漫画与欧美漫画。",
+      "icon": "/logos/comic/mycomic.png",
+      "url": "https://mycomic.com/",
+      "category": "漫画"
+    },
+    {
+      "title": "Komiic",
+      "description": "漫画网站，现在努力的在经营这个网站，想把它做到最好，目前漫画数不多，大多在1400本漫画, 陆续增加中，会定期更新，会努力的给你最好的体验",
+      "icon": "/logos/comic/komiic.ico",
+      "url": "https://komiic.com/",
+      "category": "漫画"
+    },
+    {
+      "title": "拷貝漫畫",
+      "description": "拷贝漫画为全球华人提供高质量 中文 全本漫画，同人",
+      "icon": "/logos/comic/copycomic.ico",
+      "url": "https://www.2025copy.com/",
+      "category": "漫画"
+    },
+    {
+      "title": "Venera",
+      "description": "一位支持阅读本地和网络漫画的漫画阅读器",
+      "icon": "/logos/comic/venera.png",
+      "url": "https://github.com/venera-app/venera",
+      "category": "漫画"
+    },
+    {
+      "title": "搜漫",
+      "description": "搜漫连接了全网多个资源丰富的漫画源，为漫画爱好者提供最新最全的漫画资源搜索服务，带你享受一站式看遍全网漫画的极致体验",
+      "icon": "/logos/comic/souman.ico",
+      "url": "https://www.hisoman.com/",
+      "category": "漫画"
+    },
+    {
+      "title": "漫画柜",
+      "description": "看漫画网站拥有海量的国产漫画、日韩漫画、欧美漫画等丰富漫画资源，免费为漫画迷提供及时的更新、清新的界面和舒适的体验,努力打造属于漫画迷的漫画乐园。",
+      "icon": "/logos/comic/manhuagui.ico",
+      "url": "https://www.manhuagui.com/",
+      "category": "漫画"
+    },
+    {
+      "title": "Mihon",
+      "description": "在您的安卓设备上，比以往任何时候都更容易地发现和阅读漫画、网络漫画、连环画等等。",
+      "icon": "/logos/comic/mihon.png",
+      "url": "https://mihon.app/",
+      "category": "漫画"
+    },
+    {
+      "title": "动漫屋",
+      "description": "原创国漫,日本漫画,港台漫画,韩国漫画,欧美漫画,好漫画,为看漫画的人而生",
+      "icon": "/logos/comic/dm5.ico",
+      "url": "https://www.dm5.com/",
+      "category": "漫画"
+    },
+    {
+      "title": "Mangabz",
+      "description": "mangabz是全网资源最全的在线漫画、日本漫画阅读平台",
+      "icon": "/logos/comic/mangabz.ico",
+      "url": "https://www.mangabz.com/",
+      "category": "漫画"
+    },
+    {
+      "title": "zero搬运网",
+      "description": "全网最新，最全的日本生肉漫画,zero搬运网 ,zero搬运网",
+      "icon": "/logos/comic/zerocomic.ico",
+      "url": "https://www.zerobywb.com/",
+      "category": "漫画"
+    },
+    {
+      "title": "真白萌",
+      "description": "轻小说阅读社区",
+      "icon": "/logos/light novels/masiro.ico",
+      "url": "https://masiro.me/",
+      "category": "轻小说"
+    },
+    {
+      "title": "轻小说机翻机器人",
+      "description": "一个能自动生成并分享轻小说译文的网站",
+      "icon": "/logos/light novels/novellia.ico",
+      "url": "https://n.novelia.cc/",
+      "category": "轻小说"
+    },
+    {
+      "title": "Hikarinagi",
+      "description": "一个ACGN文化社区",
+      "icon": "/logos/light novels/hikarinagi.ico",
+      "url": "https://www.hikarinagi.org/",
+      "category": "轻小说"
+    },
+    {
+      "title": "轻书架",
+      "description": "轻书架，国内一手的轻小说发布地，致力于提供最完美的网站使用体验",
+      "icon": "/logos/light novels/qinglnovel.png",
+      "url": "https://www.lightnovel.love/",
+      "category": "轻小说"
+    },
+    {
+      "title": "轻之国度",
+      "description": "輕之國度是專註于分享的NACG社群，这里有用户分享的最新的NACG资源，有很好的社群与创作氛围",
+      "icon": "/logos/light novels/qingzhiguodu.ico",
+      "url": "https://www.lightnovel.fun/",
+      "category": "轻小说"
+    },
+    {
+      "title": "魔笔小说",
+      "description": "MOBI EUPB 轻小说下载 KINDLE轻小说 日轻资源",
+      "icon": "/logos/light novels/mobinnovel.png",
+      "url": "https://mobinovels.com/",
+      "category": "轻小说"
+    },
+    {
+      "title": "成为小说家吧",
+      "description": "“成为小说家吧”是日本最大的在线小说投稿网站之一。该网站拥有超过100万部作品、超过240万注册用户，每月页面浏览量超过25亿次，而且完全免费，可以在电脑和智能手机上使用！",
+      "icon": "/logos/light novels/syosetu.ico",
+      "url": "https://syosetu.com/",
+      "category": "轻小说"
+    },
+    {
+      "title": "SF轻小说",
+      "description": "SF轻小说网提供海量日本轻小说,国产轻小说,动漫小说,轻小说TXT下载,轻小说在线阅读",
+      "icon": "/logos/light novels/sflnovel.ico",
+      "url": "https://m.sfacg.com/",
+      "category": "轻小说"
+    },
+    {
+      "title": "カクヨム",
+      "description": "免费创作、阅读和分享小说。",
+      "icon": "/logos/light novels/kakuyomu.png",
+      "url": "https://kakuyomu.jp/",
+      "category": "轻小说"
+    },
+    {
+      "title": "哔哩轻小说",
+      "description": "哔哩轻小说是收录最全更新最快的轻小说文库，动漫sf轻小说网站，提供轻小说在线阅读,轻小说epub、txt下载。",
+      "icon": "/logos/light novels/bilinovel.ico",
+      "url": "https://www.bilinovel.com/",
+      "category": "轻小说"
+    },
+    {
+      "title": "EPUB 輕小說站",
+      "description": "提供EPUB格式的輕小說下載",
+      "icon": "/logos/light novels/epubln.ico",
+      "url": "https://epubln.blogspot.com/",
+      "category": "轻小说"
+    },
+    {
+      "title": "深夜读书会",
+      "description": "提供最新电子版轻小说下载",
+      "icon": "/logos/light novels/ritdon.ico",
+      "url": "https://ritdon.com/",
+      "category": "轻小说"
+    },
+    {
+      "title": "轻小说文库",
+      "description": "轻小说文库(www.wenku8.com)是收录最全更新最快的动漫sf轻小说网站,提供轻小说在线阅读,TXT与电子书下载,支持手机WAP访问",
+      "icon": "/logos/light novels/wenkuln.ico",
+      "url": "https://www.wenku8.net/",
+      "category": "轻小说"
+    },
+    {
+      "title": "轻之文库",
+      "description": "轻之文库，中国的轻小说文库。让我们在二次元的世界里一同创作有趣的故事！定期举办轻小说新人赏，提供APP下载",
+      "icon": "/logos/light novels/linovel.ico",
+      "url": "https://www.linovel.net/",
+      "category": "轻小说"
+    },
+    {
+      "title": "萌幻之乡",
+      "description": "萌幻之乡是由众多热爱2次元，喜欢分享的人组成的团体，希望在这里每个人都能找到自己喜欢的资源。",
+      "icon": "/logos/ACG Resource Site/mhzx.ico",
+      "url": "https://www.mhh1.com/",
+      "category": "ACG资源"
+    },
+    {
+      "title": "EoHut 电光小屋",
+      "description": "EoHut是一个包容性极强的综合性二次元社区，在这里可以交流动漫、游戏、漫画等，总有一个你喜欢的圈子",
+      "icon": "/logos/ACG Resource Site/eohut.ico",
+      "url": "https://www.eohut.com/",
+      "category": "ACG资源"
+    },
+    {
+      "title": "ARIA COMPANY",
+      "description": "让人害羞的台词，禁止！",
+      "icon": "/logos/ACG Resource Site/chairo.png",
+      "url": "https://aqua-aria.company/",
+      "category": "ACG资源"
+    },
+    {
+      "title": "Neko",
+      "description": "综合资源下载",
+      "icon": "/logos/ACG Resource Site/nekoyo.png",
+      "url": "https://nekoyo.co/",
+      "category": "ACG资源"
+    },
+    {
+      "title": "次元狗动漫",
+      "description": "次元狗是一个动漫交流分享社区，在这里能找到动漫、漫画、游戏、轻小说和图包等关于二次元的一切。欢迎加入我们！",
+      "icon": "/logos/ACG Resource Site/acgndog.png",
+      "url": "https://www.acgndog.com/",
+      "category": "ACG资源"
+    },
+    {
+      "title": "次元W",
+      "description": "次元W一个以ACG及相关资源分享交流为主的二刺螈网站",
+      "icon": "/logos/ACG Resource Site/cywacg.webp",
+      "url": "https://cywacg.one/",
+      "category": "ACG资源"
+    },
+    {
+      "title": "IACG.RIP",
+      "description": "一个随意分享推荐本子和里番的小站。",
+      "icon": "/logos/ACG Resource Site/iacgrip.avif",
+      "url": "https://b.iacg.site/",
+      "category": "ACG资源"
+    },
+    {
+      "title": "萌次元",
+      "description": "一个可爱的！一个用爱发电的ACG小圈！",
+      "icon": "/logos/ACG Resource Site/mcyacg.webp",
+      "url": "https://18moe.net/",
+      "category": "ACG资源"
+    },
+    {
+      "title": "芯幻",
+      "description": "芯幻(ACG.LA)是一个分享ACG资讯，每天更新各种同人动漫，精品美图，拥有众多的动漫资源帝,提供P站图集、精品cosplay图集和优秀动漫作品！",
+      "icon": "/logos/ACG Resource Site/xhacg.png",
+      "url": "https://xhcyx.com/",
+      "category": "ACG资源"
+    },
+    {
+      "title": "初音社",
+      "description": "初音社是一个资源分享平台,提供有初音未来,MMD,初音演唱会,动漫,电影,番剧,音乐,写真,游戏等相关资源, 大家可以在这里互相分享和交换资源",
+      "icon": "/logos/ACG Resource Site/mikuclub.ico",
+      "url": "https://www.mikuclub.win/",
+      "category": "ACG资源"
+    },
+    {
+      "title": "琉璃神社",
+      "description": "最新的ACG资讯 分享同人动漫的快乐",
+      "icon": "/logos/ACG Resource Site/llssacg.ico",
+      "url": "https://www.hacg.icu/",
+      "category": "ACG资源"
+    },
+    {
+      "title": "灵梦御所",
+      "description": "绅士的幻想乡",
+      "icon": "/logos/ACG Resource Site/reimuacg.png",
+      "url": "https://blog.reimu.net/",
+      "category": "ACG资源"
+    },
+    {
+      "title": "维咔VikACG",
+      "description": "维咔VikACG由VikACG Pte. Ltd.运营，致力于各类动漫资源分享以及漫友交流，我们的Slogan是：肥宅们的欢乐家园。",
+      "icon": "/logos/ACG Resource Site/vikaacg.png",
+      "url": "https://www.vikacg.com/",
+      "category": "ACG资源"
+    },
+    {
+      "title": "Anime-Sharing",
+      "description": "Anime-Sharing Community",
+      "icon": "/logos/ACG Resource Site/animesharing.png",
+      "url": "https://www.anime-sharing.com/",
+      "category": "ACG资源"
+    },
+    {
+      "title": "TouchGal",
+      "description": "TouchGal 是一个一站式 Galgame 文化社区。提供Galgame 论坛、Galgame 下载等服务。承诺永久免费, 高质量。为Galgame 爱好者提供一片净土！",
+      "icon": "/logos/ACG Games/touchgal.webp",
+      "url": "https://www.touchgal.us/",
+      "category": "ACG游戏"
+    },
+    {
+      "title": "鲲 Galgame 论坛",
+      "description": "世界上最萌的 Galgame 论坛! 世界上最先进的 Galgame 资源 Wiki 网站! 永远不会有广告! 永远免费! Next Generation Galgame Website Wiki!",
+      "icon": "/logos/ACG Games/kungal.webp",
+      "url": "https://www.kungal.com/",
+      "category": "ACG游戏"
+    },
+    {
+      "title": "鲲 Galgame 补丁",
+      "description": "开源, 免费, 零门槛, 纯手写, 最先进的 Galgame 补丁资源下载站, 提供 Windows, 安卓, KRKR, Tyranor 等各类平台的 Galgame 补丁资源下载。永远免费！",
+      "icon": "/logos/ACG Games/moyu.webp",
+      "url": "https://www.moyu.moe/",
+      "category": "ACG游戏"
+    },
+    {
+      "title": "2DFan",
+      "description": "2DFan(二次元爱好者)是一个专注于提供日本游戏、动漫相关内容的门户站点",
+      "icon": "/logos/ACG Games/2dfan.ico",
+      "url": "https://2dfan.com/",
+      "category": "ACG游戏"
+    },
+    {
+      "title": "量子ACG",
+      "description": "量子ACG是一个以游戏为主，进而推动日语学习的网站",
+      "icon": "/logos/ACG Games/lzacg.jpeg",
+      "url": "https://lzacg.cc/",
+      "category": "ACG游戏"
+    },
+    {
+      "title": "书音的图书馆",
+      "description": "这里是Shion酱的图书馆，你可以在这里免费获取Galgame资源！",
+      "icon": "/logos/ACG Games/shionlib.ico",
+      "url": "https://www.shionlib.com/",
+      "category": "ACG游戏"
+    },
+    {
+      "title": "莉斯坦ACG",
+      "description": "本站自2025年1月25日正式上线以来,始终以简洁美观人性化的理念运营,以用户的体验为主,希望能够给广大用户带来优质的体验",
+      "icon": "/logos/ACG Games/lstacg.ico",
+      "url": "https://www.limulu.moe/",
+      "category": "ACG游戏"
+    },
+    {
+      "title": "Galgamex",
+      "description": "Galgamex是专业的Galgame交流社区平台，致力于游戏评测、开发者访谈、文化讨论和技术交流。我们为Galgame爱好者提供高质量的内容分享和深度讨论空间，推动Galgame文化的传播与发展。",
+      "icon": "/logos/ACG Games/galgamex.webp",
+      "url": "https://www.galgamex.net/",
+      "category": "ACG游戏"
+    },
+    {
+      "title": "小鳥遊暁の会员制餐厅",
+      "description": "专注音质的安卓平台Galgame移植者 | 快端上来吧，我等不及了！",
+      "icon": "/logos/ACG Games/tsatoru.webp",
+      "url": "https://t-satoru.top/",
+      "category": "ACG游戏"
+    },
+    {
+      "title": "月谣",
+      "description": "专注最新汉化Galgame资源整合，提供免费便捷的下载服务。",
+      "icon": "/logos/ACG Games/sayafx.ico",
+      "url": "https://www.sayafx.vip/",
+      "category": "ACG游戏"
+    },
+    {
+      "title": "稻荷GAL",
+      "description": "稻荷GAL是一个温馨的Galgame资源分享社区。这里有热爱视觉小说的同好们在分享游戏资源,免费且不限速的下载，没有劣质网盘。提供最新的Galgame游戏、汉化补丁、音乐资源等。",
+      "icon": "/logos/ACG Games/inarigal.ico",
+      "url": "https://inarigal.com/",
+      "category": "ACG游戏"
+    },
+    {
+      "title": "绮梦ACG",
+      "description": "专注分享次元世界-Galgame",
+      "icon": "/logos/ACG Games/qimengacg.ico",
+      "url": "https://game.acgs.one/",
+      "category": "ACG游戏"
+    },
+    {
+      "title": "青桔网",
+      "description": "由青桔移植组建立的非盈利型galgame免费分享平台",
+      "icon": "/logos/ACG Games/qingjugal.png",
+      "url": "https://www.qingju.org/",
+      "category": "ACG游戏"
+    },
+    {
+      "title": "真红小站",
+      "description": "这里是真红小站（失落小站）, 一个galgame资源站, (包括visual novel, 黄油, psp, krkr, ons gal资源 等), 收录了大部分的汉化galgame, 大部分的生肉galgame资源。",
+      "icon": "/logos/ACG Games/shinnku.ico",
+      "url": "https://www.shinnku.com/",
+      "category": "ACG游戏"
+    },
+    {
+      "title": "喵源领域",
+      "description": "喵源领域是专注于高质量的Galgame文化的分享网站，提供最新最全的Galgame相关文件下载服务，助力将Galgame文化推向世界！",
+      "icon": "/logos/ACG Games/nyantaku.png",
+      "url": "https://www.nyantaku.com/",
+      "category": "ACG游戏"
+    },
+    {
+      "title": "Nysoure",
+      "description": "Nysoure 是一个完全免费的galgame分享网站, 不接受捐赠和广告",
+      "icon": "/logos/ACG Games/nysoure.png",
+      "url": "https://res.nyne.dev/",
+      "category": "ACG游戏"
+    },
+    {
+      "title": "NekoGAL",
+      "description": "Galgame传递者",
+      "icon": "/logos/ACG Games/nekogal.png",
+      "url": "https://www.nekogal.com/",
+      "category": "ACG游戏"
+    },
+    {
+      "title": "次元小屋",
+      "description": "免费直链浏览器下载各种资源",
+      "icon": "/logos/ACG Games/cyxw.webp",
+      "url": "https://cyxw.xyz/",
+      "category": "ACG游戏"
+    },
+    {
+      "title": "初音的青葱",
+      "description": "这是一个小站",
+      "icon": "/logos/ACG Games/fufugal.ico",
+      "url": "https://www.fufugal.com/",
+      "category": "ACG游戏"
+    },
+    {
+      "title": "忧郁的loli_忧郁的弟弟",
+      "description": "汉化galgame分享站",
+      "icon": "/logos/ACG Games/ttloli.ico",
+      "url": "https://www.ttloli.com/",
+      "category": "ACG游戏"
+    },
+    {
+      "title": "GGS",
+      "description": "galgame聚合网站",
+      "icon": "/logos/ACG Games/saopggs.png",
+      "url": "https://gal.saop.cc/",
+      "category": "ACG游戏"
+    },
+    {
+      "title": "天遊二次元",
+      "description": "最新最全二次元游戏galgame资讯介绍及下载资源",
+      "icon": "/logos/ACG Games/tiangal.png",
+      "url": "https://www.tiangal.com/",
+      "category": "ACG游戏"
+    },
+    {
+      "title": "Galgamer",
+      "description": "因爲你是一個一個一個 &lt;Galgamer/美少女&gt; 啊啊啊啊阿",
+      "icon": "/logos/ACG Games/galgamer.ico",
+      "url": "https://galgamer.moe/",
+      "category": "ACG游戏"
+    },
+    {
+      "title": "ACG嘤嘤怪",
+      "description": "ACG资源站",
+      "icon": "/logos/ACG Games/acgyyg.ico",
+      "url": "https://acgyyg.ru/",
+      "category": "ACG游戏"
+    },
+    {
+      "title": "绅仕天堂",
+      "description": "来吧，绅仕天堂",
+      "icon": "/logos/ACG Games/chgal.ico",
+      "url": "https://www.chgal.com/",
+      "category": "ACG游戏"
+    },
+    {
+      "title": "Mikocon",
+      "description": "2D.G.F. 2DJGAME Bishoujo Moe Mikocon FlowerTradeWinds FTW Guishen 鬼神 Getchu DLsite Maniax DMM Gyutto 同人 新作 特典 美少女 萌え Torrent Nyaa Sukebei",
+      "icon": "/logos/ACG Games/mikocon.ico",
+      "url": "https://www.mikocon.com/",
+      "category": "ACG游戏"
+    },
+    {
+      "title": "ACG港湾",
+      "description": "独乐乐不如众乐乐",
+      "icon": "/logos/ACG Games/acggw.jpg",
+      "url": "https://www.acggw.me/",
+      "category": "ACG游戏"
+    },
+    {
+      "title": "次元图书馆",
+      "description": "次元图书馆，本馆是次元茶馆的后备仓库",
+      "icon": "/logos/ACG Games/cytsg.png",
+      "url": "https://pan.cycg.xyz/",
+      "category": "ACG游戏"
+    },
+    {
+      "title": "ACG Database",
+      "description": "ACGDB囊括了A(Anime(R18)，ASMR),C(Comic),G(Galgame),D(3D),B(Books/Light novel)等资源。Hope you can enjoy it!",
+      "icon": "/logos/ACG Games/acgdb.png",
+      "url": "https://acgdb.de/",
+      "category": "ACG游戏"
+    },
+    {
+      "title": "梓澪の妙妙屋",
+      "description": "免费 Galgame 仓库 & 下载站",
+      "icon": "/logos/ACG Games/zi0.webp",
+      "url": "https://zi0.cc/",
+      "category": "ACG游戏"
+    },
+    {
+      "title": "05的资源小站",
+      "description": "05号机一手维护建设的资源站",
+      "icon": "/logos/ACG Games/05fx.png",
+      "url": "https://05fx.022016.xyz/",
+      "category": "ACG游戏"
+    },
+    {
+      "title": "宅宅的妙妙屋",
+      "description": "宅宅的妙妙屋 - 二次元公益ACG论坛",
+      "icon": "/logos/forum/justnainai.png",
+      "url": "https://www.justnainai.com/",
+      "category": "ACG社区"
+    },
+    {
+      "title": "御爱同萌",
+      "description": "欢迎来到御爱同萌！一个以 非盈利 为目的的交流社区",
+      "icon": "/logos/forum/ai2moe.png",
+      "url": "https://www.ai2.moe/",
+      "category": "ACG社区"
+    },
+    {
+      "title": "girigiri爱联萌",
+      "description": "一个类贴吧性质的二次元论坛",
+      "icon": "/logos/forum/girigirilovebbs.png",
+      "url": "https://bbs.girigirilove.com/",
+      "category": "ACG社区"
+    },
+    {
+      "title": "真红论坛",
+      "description": "galgame 论坛, 包括各种 galgame资源 以及 galgame cg 收集",
+      "icon": "/logos/forum/shinnkubbs.jpg",
+      "url": "https://galgame.dev/",
+      "category": "ACG社区"
+    },
+    {
+      "title": "Sperteの次元茶馆",
+      "description": "本馆为ACG资源交流论坛，主营Galgame。Just fantasize,Just enjoy.",
+      "icon": "/logos/forum/cycgbbs.webp",
+      "url": "https://www.cycg.xyz/",
+      "category": "ACG社区"
+    },
+    {
+      "title": "ZodGame论坛",
+      "description": "ZodGame论坛",
+      "icon": "/logos/forum/zodbbs.ico",
+      "url": "https://zodgame.xyz/",
+      "category": "ACG社区"
+    },
+    {
+      "title": "天使动漫论坛",
+      "description": "天使动漫论坛-梦开始的地方 一个能轻松聊天结识同好的温馨小论坛  Angel Beats|TSDM字幕组|天使动漫网",
+      "icon": "/logos/forum/tsdm.ico",
+      "url": "https://www.tsdm39.com/",
+      "category": "ACG社区"
+    },
+    {
+      "title": "资源统筹局",
+      "description": "资源统筹局，统筹保管用户分享的资源资源统筹局",
+      "icon": "/logos/forum/gkdworld.png",
+      "url": "https://gkdworld.eu.org/",
+      "category": "ACG社区"
+    },
+    {
+      "title": "梦次元",
+      "description": "梦次元是一个以二次元动漫ACG以及相关资源交流分享为主的动漫平台，为用户提供动画新番，漫画，音乐，游戏等资源下载和分享等功能。",
+      "icon": "/logos/forum/mcybbs.ico",
+      "url": "https://mcyacg.com/",
+      "category": "ACG社区"
+    },
+    {
+      "title": "SS同盟",
+      "description": "SS同盟",
+      "icon": "/logos/forum/sstmbbs.png",
+      "url": "https://sstm.moe/",
+      "category": "ACG社区"
+    },
+    {
+      "title": "KDays 论坛",
+      "description": "KDays成立于2008年 我们的目标是做一个能让大家开心的社区。",
+      "icon": "/logos/forum/kdaysbbs.png",
+      "url": "https://bbs2.kdays.net/",
+      "category": "ACG社区"
+    },
+    {
+      "title": "星空论坛",
+      "description": "星空网以日式动画、漫画、游戏、音乐、小说为核心，我们的使命是创造日式ACGMN网站新纪元！",
+      "icon": "/logos/forum/seikuubbs.ico",
+      "url": "https://bbs2.seikuu.com/",
+      "category": "ACG社区"
+    },
+    {
+      "title": "绯月ScarletMoon",
+      "description": "绯月是一个以动漫、游戏、音乐、绘画等为主题的论坛",
+      "icon": "/logos/forum/fybbs.ico",
+      "url": "https://bbs.kfpromax.com/",
+      "category": "ACG社区"
+    },
+    {
+      "title": "天使二次元",
+      "description": "讨论区 ,天使二次元讨论区",
+      "icon": "/logos/forum/tianshibbs.ico",
+      "url": "https://bbs.tianshi.one/",
+      "category": "ACG社区"
+    },
+    {
+      "title": "南+ South Plus",
+      "description": "Comic Market,CM,C88,ACG,汉化,动画,漫画,游戏,音乐,同人,轻小说,東方",
+      "icon": "/logos/forum/south plus bbs.ico",
+      "url": "https://www.blue-plus.net/",
+      "category": "ACG社区"
+    },
+    {
+      "title": "ACG里世界",
+      "description": "ACG里世界改名ACGN里世界做一个精神世界的二次元社区，这是里世界官方网站原班团队！绝对领域，死库水",
+      "icon": "/logos/forum/acglsj.ico",
+      "url": "https://acgn.zone/",
+      "category": "ACG社区"
+    }
+  ]
+}
+
