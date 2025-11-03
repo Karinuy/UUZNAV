@@ -37,7 +37,7 @@ const handleCardClick = (url: string) => {
             >
               <div class="card-body">
                 <div class="card-icon-wrapper">
-                  <img :src="link.icon" :alt="link.title" class="card-icon" />
+                  <img :src="link.icon" :alt="link.title" class="card-icon" loading="lazy" />
                 </div>
                 <div class="card-info">
                   <n-tag :bordered="false" size="small" class="card-category">
