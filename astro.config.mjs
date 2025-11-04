@@ -1,6 +1,8 @@
 import { defineConfig } from 'astro/config';
 import vue from '@astrojs/vue';
 
+import sitemap from '@astrojs/sitemap';
+
 export const siteConfig = {
   title: 'UUZ导航 | ACG导航',
   url: 'https://uuznav.com',
@@ -10,10 +12,8 @@ export const siteConfig = {
 }
 
 export default defineConfig({
-  integrations: [
-    vue({
-      appEntrypoint: '/src/plugins/naive-ui'
-    })
-  ],
+  integrations: [vue({
+    appEntrypoint: '/src/plugins/naive-ui'
+  }), sitemap()],
   site: siteConfig.url
 });

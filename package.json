@@ -1,7 +1,7 @@
 {
   "name": "uuznav",
   "type": "module",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
@@ -9,6 +9,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/sitemap": "^3.6.0",
     "@astrojs/vue": "^5.1.2",
     "@vicons/carbon": "^0.13.0",
     "@vicons/ionicons5": "^0.13.0",

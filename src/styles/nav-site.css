@@ -76,6 +76,8 @@ body {
   padding-top: 84px;
   max-width: 1400px;
   margin: 0 auto;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .nav-site:has(.advertisement-wrapper) .content-wrapper {
@@ -121,6 +123,8 @@ body {
 
 .main-content {
   padding: 0 32px 48px;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .category-section {
@@ -139,6 +143,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 16px;
+  width: 100%;
 }
 
 .nav-card {
@@ -146,6 +151,8 @@ body {
   height: 100%;
   background: #ffffff;
   border-radius: 8px;
+  min-width: 0;
+  overflow: hidden;
 }
 
 .card-body {
@@ -359,7 +366,7 @@ body {
   }
   
   .cards-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 12px;
   }
   
@@ -452,7 +459,7 @@ body {
   }
   
   .cards-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 10px;
   }
   
