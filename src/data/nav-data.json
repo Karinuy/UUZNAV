@@ -71,6 +71,20 @@
       "category": "动漫"
     },
     {
+      "title": "Iwara",
+      "description": "高质量MMD综合社区",
+      "icon": "/logos/anime/iwara.jpg",
+      "url": "https://www.iwara.tv/",
+      "category": "动漫"
+    },
+    {
+      "title": "Hanime1.me",
+      "description": "Hanime1.me 带给你最完美的H动漫、H动画、里番的线上看体验，绝对没有天杀的片头广告！",
+      "icon": "/logos/anime/hanime1.png",
+      "url": "https://hanime1.me/",
+      "category": "动漫"
+    },
+    {
       "title": "番薯动漫",
       "description": "提供最新最快的动漫新番资讯和在线播放，观看完全免费、无须注册、高速播放、更新及时的专业在线番薯动漫站，我们致力为所有动漫迷们提供最好看的动漫。",
       "icon": "/logos/anime/sweet potato.png",
@@ -264,6 +278,48 @@
       "description": "MYCOMIC 我的漫画拥有海量中文化漫画，每日为你即时更新日本漫画，韩国漫画，国产漫画与欧美漫画。",
       "icon": "/logos/comic/mycomic.png",
       "url": "https://mycomic.com/",
+      "category": "漫画"
+    },
+    {
+      "title": "禁漫天堂",
+      "description": "禁漫天堂发布页",
+      "icon": "/logos/comic/jmcomic.ico",
+      "url": "https://jmcomicws.cc/",
+      "category": "漫画"
+    },
+    {
+      "title": "哔咔漫画PICACG",
+      "description": "哔咔漫画官方网站",
+      "icon": "/logos/comic/picacomic.png",
+      "url": "https://manhuapica.com/pdownload/",
+      "category": "漫画"
+    },
+    {
+      "title": "nhentai",
+      "description": "nhentai",
+      "icon": "/logos/comic/nhentai.png",
+      "url": "https://nhentai.net/",
+      "category": "漫画"
+    },
+    {
+      "title": "NiceCat",
+      "description": "NiceCat 免费 本子漫画平台——专为本子漫画爱好者打造的终极阅读体验。我们提供广泛的本子漫画资源，包括最新发布的热门作品和经典收藏。不论您是寻找最新的本子漫画还是怀旧的经典作品，我们的平台都能为您提供高清晰度的阅读体验。注册即可享受个性化推荐、收藏夹功能以及离线下载选项，方便随时随地阅读。加入我们的社区，与其他本子漫画爱好者分享您的喜爱和发现，开启您的本子漫画之旅！",
+      "icon": "/logos/comic/nicecat.png",
+      "url": "https://web.nicecat.cc/",
+      "category": "漫画"
+    },
+    {
+      "title": "NoyAcg",
+      "description": "NoyAcg 是一个公益免费的本子社区!",
+      "icon": "/logos/comic/noyacg.ico",
+      "url": "https://noy.asia/",
+      "category": "漫画"
+    },
+    {
+      "title": "绅士漫画",
+      "description": "绅士漫画是一个专注分享汉化本子的邪恶漫画站",
+      "icon": "/logos/comic/shenshicomic.ico",
+      "url": "https://www.wnlink.ru/",
       "category": "漫画"
     },
     {
@@ -523,6 +579,62 @@
       "description": "Anime-Sharing Community",
       "icon": "/logos/ACG Resource Site/animesharing.png",
       "url": "https://www.anime-sharing.com/",
+      "category": "ACG资源"
+    },
+    {
+      "title": "Browse :: Sukebei",
+      "description": "A BitTorrent community focused on Eastern Asian media including anime, manga, music, and more",
+      "icon": "/logos/ACG Resource Site/sukebeinyaa.png",
+      "url": "https://sukebei.nyaa.si/",
+      "category": "ACG资源"
+    },
+    {
+      "title": "GGBases",
+      "description": "提供最全面的GalGame、同人遊戲BT下載，以及功能完善的標簽檢索功能。",
+      "icon": "/logos/ACG Resource Site/ggbase.ico",
+      "url": "https://ggb.dlgal.com/",
+      "category": "ACG资源"
+    },
+    {
+      "title": "AniX.Moe",
+      "description": "Presented the final gift on This Wonderful World.",
+      "icon": "/logos/ACG Resource Site/anixmoe.ico",
+      "url": "https://www.anix.moe/",
+      "category": "ACG资源"
+    },
+    {
+      "title": "东京图书馆",
+      "description": "A BitTorrent Library for Japanese Media",
+      "icon": "/logos/ACG Resource Site/tokyotosho.ico",
+      "url": "https://www.tokyotosho.info/",
+      "category": "ACG资源"
+    },
+    {
+      "title": "洛琪希图书馆",
+      "description": "致力于建设一个综合型的无职转生同好交流中文社区，欢迎各位无职同好来玩！",
+      "icon": "/logos/ACG Resource Site/roxylib.ico",
+      "url": "https://pan.roxylib.com/",
+      "category": "ACG资源"
+    },
+    {
+      "title": "萌芽の资料库",
+      "description": "萌芽の资料盘 - by AMEMOES",
+      "icon": "/logos/ACG Resource Site/amemoe.ico",
+      "url": "https://openlist.amemoes.com.cn/",
+      "category": "ACG资源"
+    },
+    {
+      "title": "七米蓝的仓库",
+      "description": "不只分享资源，还分享经验",
+      "icon": "/logos/ACG Resource Site/chirmyram.ico",
+      "url": "https://al.chirmyram.com/",
+      "category": "ACG资源"
+    },
+    {
+      "title": "SunshineBoy的杂乱仓库",
+      "description": "SunshineBoy的杂乱仓库",
+      "icon": "/logos/ACG Resource Site/sunshineboy.png",
+      "url": "https://openlist.sunshineboy.top/",
       "category": "ACG资源"
     },
     {
