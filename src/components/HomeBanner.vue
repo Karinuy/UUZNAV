@@ -1,17 +1,17 @@
 <script setup lang="ts">
-interface AdItem {
+interface BannerItem {
   image: string
   link: string
   alt: string
 }
 
 defineProps<{
-  items: AdItem[]
+  items: BannerItem[]
   autoplay?: boolean
   interval?: number
 }>()
 
-const handleAdClick = (link: string) => {
+const handleBannerClick = (link: string) => {
   if (link) {
     window.open(link, '_blank')
   }
@@ -19,7 +19,7 @@ const handleAdClick = (link: string) => {
 </script>
 
 <template>
-  <div class="advertisement-wrapper">
+  <div class="home-banner-wrapper">
     <n-carousel
       :autoplay="autoplay"
       :interval="interval"
@@ -30,11 +30,12 @@ const handleAdClick = (link: string) => {
         v-for="(item, index) in items"
         :key="index"
         class="carousel-item"
-        @click="handleAdClick(item.link)"
+        @click="handleBannerClick(item.link)"
       >
-        <img :src="item.image" :alt="item.alt" class="ad-image" />
+        <img :src="item.image" :alt="item.alt" class="banner-image" />
       </div>
     </n-carousel>
   </div>
 </template>
+
 

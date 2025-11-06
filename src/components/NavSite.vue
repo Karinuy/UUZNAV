@@ -6,7 +6,7 @@ import type { NavLink, MenuItem } from '../types/nav'
 import NavigationHeader from './NavigationHeader.vue'
 import NavigationContent from './NavigationContent.vue'
 import Announcement from './Announcement.vue'
-import Advertisement from './Advertisement.vue'
+import HomeBanner from './HomeBanner.vue'
 import RandomRecommend from './RandomRecommend.vue'
 
 const props = defineProps<{
@@ -16,7 +16,7 @@ const props = defineProps<{
     title: string
     content: string
   }
-  advertisement?: {
+  homeBanner?: {
     enabled: boolean
     autoplay: boolean
     interval: number
@@ -127,11 +127,11 @@ onUnmounted(() => {
     />
     
     <div class="content-wrapper">
-      <Advertisement
-        v-if="props.advertisement?.enabled"
-        :items="props.advertisement.items"
-        :autoplay="props.advertisement.autoplay"
-        :interval="props.advertisement.interval"
+      <HomeBanner
+        v-if="props.homeBanner?.enabled"
+        :items="props.homeBanner.items"
+        :autoplay="props.homeBanner.autoplay"
+        :interval="props.homeBanner.interval"
       />
       
       <Announcement
