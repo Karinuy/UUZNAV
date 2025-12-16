@@ -1,16 +1,15 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { ArrowUpOutline } from '@vicons/ionicons5'
-import navData from '../data/nav-data.json'
 import type { NavLink, MenuItem } from '../types/nav'
 import NavigationHeader from './NavigationHeader.vue'
 import NavigationContent from './NavigationContent.vue'
 import Announcement from './Announcement.vue'
 import HomeBanner from './HomeBanner.vue'
-import RandomRecommend from './RandomRecommend.vue'
 
 const props = defineProps<{
   siteTitle: string
+  navLinks: NavLink[]
   announcement?: {
     enabled: boolean
     title: string
@@ -35,7 +34,7 @@ const showBackTop = ref(false)
 const filteredNavLinks = computed<Map<string, NavLink[]>>(() => {
   const grouped = new Map<string, NavLink[]>()
   
-  navData.navLinks.forEach((link: NavLink) => {
+  props.navLinks.forEach((link: NavLink) => {
     const category = link.category
     if (!grouped.has(category)) {
       grouped.set(category, [])
@@ -54,6 +53,11 @@ const menuOptions = computed<MenuItem[]>(() => {
     key: category
   }))
 })
+
+const firstCategory = Array.from(filteredNavLinks.value.keys())[0]
+if (firstCategory) {
+  activeKey.value = firstCategory
+}
 
 const handleMenuSelect = (key: string) => {
   isScrolling.value = true
@@ -106,10 +110,7 @@ const scrollToTop = () => {
 onMounted(() => {
   window.addEventListener('scroll', handleScroll)
   
-  const firstCategory = Array.from(filteredNavLinks.value.keys())[0]
-  if (firstCategory) {
-    activeKey.value = firstCategory
-  }
+  // activeKey 在 setup 阶段已初始化；这里不再重复设置
 })
 
 onUnmounted(() => {
@@ -140,7 +141,7 @@ onUnmounted(() => {
         :content="props.announcement.content"
       />
       
-      <RandomRecommend :nav-links="navData.navLinks" />
+      <slot name="random-recommend" />
       
       <NavigationContent :filtered-nav-links="filteredNavLinks" />
     </div>

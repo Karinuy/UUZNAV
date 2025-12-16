@@ -1,22 +1,37 @@
-<!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
-	</head>
-	<body>
-		<slot />
-	</body>
-</html>
+---
+const { siteConfig } = Astro.props as {
+  siteConfig: {
+    title: string
+    url: string
+    description: string
+    keywords: string
+    author: string
+  }
+}
+---
 
-<style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
-</style>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{siteConfig.title}</title>
+	<meta name="description" content={siteConfig.description}>
+	<meta name="keywords" content={siteConfig.keywords}>
+	<meta name="author" content={siteConfig.author}>
+	<meta property="og:type" content="website">
+	<meta property="og:url" content={siteConfig.url}>
+	<meta property="og:title" content={siteConfig.title}>
+	<meta property="og:description" content={siteConfig.description}>
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content={siteConfig.url}>
+	<meta property="twitter:title" content={siteConfig.title}>
+	<meta property="twitter:description" content={siteConfig.description}>
+	<link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+	<link rel="canonical" href={siteConfig.url} />
+	<link rel="sitemap" href="/sitemap-index.xml" />
+</head>
+<body>
+	<slot />
+</body>
+</html>

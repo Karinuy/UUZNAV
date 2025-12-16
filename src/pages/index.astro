@@ -1,38 +1,22 @@
 ---
+import Layout from '../layouts/Layout.astro';
 import NavSite from '../components/NavSite.vue';
+import RandomRecommend from '../components/RandomRecommend.vue';
 import { announcementConfig } from '../config/announcement';
 import { homeBannerConfig } from '../config/homeBanner';
 import { siteConfig } from '../../astro.config.mjs';
+import navData from '../data/nav-data.json';
 import '../styles/nav-site.css';
 ---
 
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>{siteConfig.title}</title>
-	<meta name="description" content={siteConfig.description}>
-	<meta name="keywords" content={siteConfig.keywords}>
-	<meta name="author" content={siteConfig.author}>
-	<meta property="og:type" content="website">
-	<meta property="og:url" content={siteConfig.url}>
-	<meta property="og:title" content={siteConfig.title}>
-	<meta property="og:description" content={siteConfig.description}>
-	<meta property="twitter:card" content="summary_large_image">
-	<meta property="twitter:url" content={siteConfig.url}>
-	<meta property="twitter:title" content={siteConfig.title}>
-	<meta property="twitter:description" content={siteConfig.description}>
-	<link rel="icon" type="image/svg+xml" href="/favicon.ico" />
-	<link rel="canonical" href={siteConfig.url} />
-	<link rel="sitemap" href="/sitemap-index.xml" />
-</head>
-<body>
+<Layout siteConfig={siteConfig}>
 	<NavSite 
-		client:only="vue" 
+		client:load
 		site-title={siteConfig.title}
 		announcement={announcementConfig} 
 		home-banner={homeBannerConfig} 
-	/>
-</body>
-</html>
+		nav-links={navData.navLinks}
+	>
+		<RandomRecommend slot="random-recommend" client:only="vue" nav-links={navData.navLinks} />
+	</NavSite>
+</Layout>
