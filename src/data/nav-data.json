@@ -659,6 +659,34 @@
       "category": "ACG游戏"
     },
     {
+      "title": "ACGNGAME",
+      "description": "ACGNGAME与Galworld, 提供常见的galgame资源与下载，提供游玩记录功能。",
+      "icon": "/logos/ACG Games/acgngame.ico",
+      "url": "https://acgn.games/",
+      "category": "ACG游戏"
+    },
+    {
+      "title": "紫缘社",
+      "description": "Galgame 资源站, 这里收录了大部分电脑端与手机端的汉化 Galgame",
+      "icon": "/logos/ACG Games/galzy.ico",
+      "url": "https://galzy.eu.org/",
+      "category": "ACG游戏"
+    },
+    {
+      "title": "YAAS",
+      "description": "欢迎来到YAAS！这是一个纯公益站点，专为批量下载优化。 YAAS目前处于试运行阶段，本站不接受任何形式的赞助和捐赠，本站不接广告。 本站会采取措施以阻止任何形式的搜索引擎索引和收录。 本站支持批量下载和AList V3挂载，不开放WebDAV权限。",
+      "icon": "/logos/ACG Games/yaas.jpg",
+      "url": "https://alist-public.imoutoheaven.org/",
+      "category": "ACG游戏"
+    },
+    {
+      "title": "MikuGame初音游戏库",
+      "description": "MikuGame初音游戏库提供海量PC游戏、绅士游戏、Galgame、整合包免费下载，资源永久免费，无需注册即可下载。",
+      "icon": "/logos/ACG Games/mikugame.ico",
+      "url": "https://mikugame.icu/",
+      "category": "ACG游戏"
+    },
+    {
       "title": "2DFan",
       "description": "2DFan(二次元爱好者)是一个专注于提供日本游戏、动漫相关内容的门户站点",
       "icon": "/logos/ACG Games/2dfan.ico",
