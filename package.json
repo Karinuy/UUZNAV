@@ -1,20 +1,21 @@
 {
   "name": "uuznav",
   "type": "module",
-  "version": "1.0.1",
+  "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "check": "node scripts/check.mjs"
   },
   "dependencies": {
-    "@astrojs/sitemap": "^3.6.0",
-    "@astrojs/vue": "^5.1.2",
+    "@astrojs/sitemap": "^3.7.4",
+    "@astrojs/vue": "^7.0.3",
     "@vicons/carbon": "^0.13.0",
     "@vicons/ionicons5": "^0.13.0",
-    "astro": "^5.15.3",
-    "naive-ui": "^2.43.1",
-    "vue": "^3.5.22"
+    "astro": "^7.3.5",
+    "naive-ui": "^2.45.3",
+    "vue": "^3.5.43"
   }
 }

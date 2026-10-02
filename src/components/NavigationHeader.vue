@@ -1,64 +1,39 @@
 <script setup lang="ts">
-import { ref } from 'vue'
-import { MenuOutline } from '@vicons/ionicons5'
-import type { MenuItem } from '../types/nav'
+import { MenuOutline, SearchOutline } from '@vicons/ionicons5'
 
-const props = defineProps<{
+defineProps<{
   siteTitle: string
-  menuOptions: MenuItem[]
-  activeKey: string
+  modelValue: string
 }>()
 
 const emit = defineEmits<{
-  menuSelect: [key: string]
+  'update:modelValue': [value: string]
+  openMenu: []
 }>()
 
-const drawerActive = ref(false)
-
-const handleMenuSelect = (key: string) => {
-  emit('menuSelect', key)
-  drawerActive.value = false
+const handleInput = (value: string) => {
+  emit('update:modelValue', value)
 }
 </script>
 
 <template>
-  <header class="nav-header">
-    <div class="header-content">
-      <div class="logo">{{ siteTitle }}</div>
-
-      <nav class="desktop-menu">
-        <n-menu
-          mode="horizontal"
-          :options="menuOptions"
-          :value="activeKey"
-          @update:value="handleMenuSelect"
-        />
-      </nav>
-
-      <div class="mobile-menu-button">
-        <n-button @click="drawerActive = true" text>
-          <template #icon>
-            <n-icon :size="24"><MenuOutline /></n-icon>
-          </template>
-        </n-button>
-      </div>
+  <header class="top-navbar">
+    <button class="mobile-menu-button" type="button" @click="emit('openMenu')">
+      <n-icon :size="22"><MenuOutline /></n-icon>
+    </button>
+    <div class="nav-logo">{{ siteTitle }}</div>
+    <div class="nav-search">
+      <n-input
+        :value="modelValue"
+        round
+        clearable
+        placeholder=""
+        @update:value="handleInput"
+      >
+        <template #prefix>
+          <n-icon><SearchOutline /></n-icon>
+        </template>
+      </n-input>
     </div>
-
-    <n-drawer 
-      v-model:show="drawerActive" 
-      :width="280" 
-      placement="right"
-      :trap-focus="true"
-      :block-scroll="true"
-    >
-      <n-drawer-content title="菜单" :native-scrollbar="false">
-        <n-menu
-          :options="menuOptions"
-          :value="activeKey"
-          @update:value="handleMenuSelect"
-        />
-      </n-drawer-content>
-    </n-drawer>
   </header>
 </template>
-

@@ -39,7 +39,7 @@ const handleCardClick = (url: string) => {
               </div>
               <div class="card-info">
                 <n-tag :bordered="false" size="small" class="card-category">
-                  {{ link.category }}
+                  {{ link.category.split('/').pop() }}
                 </n-tag>
                 <h3 class="card-title">{{ link.title }}</h3>
                 <p class="card-description">{{ link.description }}</p>
@@ -51,7 +51,7 @@ const handleCardClick = (url: string) => {
           <div class="popover-title">{{ link.title }}</div>
           <div class="popover-category">
             <n-tag :bordered="false" size="tiny">
-              {{ link.category }}
+              {{ link.category.split('/').pop() }}
             </n-tag>
           </div>
           <div class="popover-description">{{ link.description }}</div>

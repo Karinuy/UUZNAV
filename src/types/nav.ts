@@ -13,5 +13,17 @@ export interface NavData {
 export interface MenuItem {
   label: string
   key: string
+  children?: MenuItem[]
 }
 
+export interface NavSubGroup {
+  label: string
+  key: string
+  links: NavLink[]
+}
+
+export interface NavGroup {
+  label: string
+  key: string
+  subs: NavSubGroup[]
+}
