@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { MenuOutline, SearchOutline } from '@vicons/ionicons5'
+import { MenuOutline, SearchOutline, LogoGithub } from '@vicons/ionicons5'
 
 defineProps<{
   siteTitle: string
@@ -35,5 +35,14 @@ const handleInput = (value: string) => {
         </template>
       </n-input>
     </div>
+    <a
+      class="github-link"
+      href="https://github.com/Karinuy/UUZNAV"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="GitHub"
+    >
+      <n-icon :size="22"><LogoGithub /></n-icon>
+    </a>
   </header>
 </template>

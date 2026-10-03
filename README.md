@@ -32,7 +32,7 @@
 
 ```bash
 # 📥 克隆项目
-git clone https://github.com/your-name/uuznav.git
+git clone https://github.com/Karinuy/UUZNAV.git
 cd uuznav
 
 # 📦 安装依赖

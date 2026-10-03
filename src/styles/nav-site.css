@@ -10,7 +10,6 @@ body {
   background: #ffffff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x: clip;
 }
 
 * {
@@ -74,6 +73,20 @@ body {
   flex: 0 1 auto;
   min-width: 0;
   margin-left: auto;
+}
+
+.github-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  color: #383838;
+}
+
+.github-link:hover {
+  color: #18a058;
 }
 
 .dashboard-body {
