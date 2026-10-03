@@ -21,7 +21,10 @@ const handleInput = (value: string) => {
     <button class="mobile-menu-button" type="button" @click="emit('openMenu')">
       <n-icon :size="22"><MenuOutline /></n-icon>
     </button>
-    <div class="nav-logo">{{ siteTitle }}</div>
+    <div class="nav-logo">
+      <img class="nav-logo-icon" src="/favicon.ico" alt="" />
+      <span class="nav-logo-text">{{ siteTitle }}</span>
+    </div>
     <div class="nav-search">
       <n-input
         :value="modelValue"
